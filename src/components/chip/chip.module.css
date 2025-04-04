@@ -1,0 +1,14 @@
+.ds-chip {
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px;
+  background-color: gray;
+
+  &.ds-chip--error {
+    background-color: #ec221f;
+  }
+
+  &.ds-chip--success {
+    background-color: #14ae5c;
+  }
+}
